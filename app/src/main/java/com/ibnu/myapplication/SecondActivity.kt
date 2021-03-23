@@ -13,7 +13,7 @@ class SecondActivity : AppCompatActivity() {
 
         val actionBar =  supportActionBar
 
-        actionBar !!.title = "Second Activity Ibnu"
+        actionBar !!.title = "Second Activity"
 
         actionBar.setDisplayHomeAsUpEnabled(true)
 

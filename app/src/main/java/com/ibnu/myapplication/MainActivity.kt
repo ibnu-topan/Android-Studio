@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         val actionBar =  supportActionBar
 
-        actionBar !!.title = "First Activity Ibnu"
+        actionBar !!.title = "First Activity"
 
         secondActivityBtn.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
